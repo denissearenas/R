@@ -1,0 +1,18 @@
+---
+title: "structure"
+author: "denisse"
+date: "14 March 2018"
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+---
+
+## Shows the structure of an object
+
+`str(object)`
+
+```{r}
+x <- 0:10
+str(x)
+```

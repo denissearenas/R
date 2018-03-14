@@ -1,0 +1,21 @@
+---
+title: "listing"
+author: "denisse"
+date: "14 March 2018"
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+---
+
+## List objects
+
+`ls()`
+
+
+```{r list}
+x = 0:10
+ls()
+```
+
+
