@@ -1,0 +1,21 @@
+---
+title: "Documentation"
+author: "denisse"
+date: "15 March 2018"
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+---
+
+#Documentation
+
+####Brings up documentation in editor window
+`
+library(help = "package_name") 
+`
+
+```{r setup}
+library(help = "psych")
+```
+

@@ -1,0 +1,52 @@
+---
+title: "Vignettes"
+author: "denisse"
+date: "15 March 2018"
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+---
+
+# Vignettes
+
+####Brings up list of vignettes (examples) in editor window
+
+`
+vignette(package = "package_name") 
+`
+
+```{r}
+vignette(package = "psych")
+```
+
+
+####Open web page with hyperlinks for vignette PDFs etc.
+
+`
+browseVignettes(package = "package_name")
+`
+
+```{r}
+browseVignettes(package = "psych")
+```
+
+
+####Brings up list of all vignettes
+
+`
+vignette()
+`
+```{r}
+vignette()
+```
+
+#### HTML for all vignettes
+
+`
+browseVignettes()
+`
+```{r}
+browseVignettes()
+```
+
