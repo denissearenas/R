@@ -1,0 +1,29 @@
+---
+title: "Route"
+author: "Denisse"
+date: "16 March 2018"
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+---
+
+# Route
+
+### Gets the current working directory
+
+`getwd()`
+
+```{r}
+getwd()
+```
+
+### Set the working directory
+
+`
+setwd("route_directory"")
+`
+
+```{r setup}
+setwd("~/Drive")
+```
