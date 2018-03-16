@@ -10,13 +10,9 @@ output:
 
 # Vignettes
 
-## Listing
+### List of vignettes (examples) in editor window
 
-Brings up list of vignettes (examples) in editor window
-
-`
-vignette(package = "package_name") 
-`
+`vignette(package = "package_name")`
 
 ```{r}
 vignette(package = "psych")

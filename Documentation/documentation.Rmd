@@ -8,9 +8,9 @@ output:
     df_print: paged
 ---
 
-#Documentation
+# Documentation
 
-#### Brings up documentation in editor window
+### Brings up documentation in editor window
 `
 library(help = "package_name") 
 `
