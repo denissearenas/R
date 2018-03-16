@@ -10,7 +10,7 @@ output:
 
 #Documentation
 
-####Brings up documentation in editor window
+#### Brings up documentation in editor window
 `
 library(help = "package_name") 
 `
