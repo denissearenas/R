@@ -19,7 +19,7 @@ vignette(package = "psych")
 ```
 
 
-#### Open web page with hyperlinks for vignette PDFs etc.
+### Open web page with hyperlinks for vignette PDFs etc.
 
 `
 browseVignettes(package = "package_name")
@@ -30,7 +30,7 @@ browseVignettes(package = "psych")
 ```
 
 
-#### Brings up list of all vignettes
+### Brings up list of all vignettes
 
 `
 vignette()
@@ -39,7 +39,7 @@ vignette()
 vignette()
 ```
 
-#### HTML for all vignettes
+### HTML for all vignettes
 
 `
 browseVignettes()
