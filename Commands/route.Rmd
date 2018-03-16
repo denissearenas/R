@@ -21,7 +21,7 @@ getwd()
 ### Set the working directory
 
 `
-setwd("route_directory"")
+setwd("route_directory")
 `
 
 ```{r setup}
