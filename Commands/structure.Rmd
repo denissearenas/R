@@ -8,7 +8,7 @@ output:
     df_print: paged
 ---
 
-#Structure
+# Structure
 
 ### Shows the structure of an object
 
