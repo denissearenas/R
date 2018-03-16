@@ -10,7 +10,9 @@ output:
 
 # Vignettes
 
-####Brings up list of vignettes (examples) in editor window
+##Listing
+
+Brings up list of vignettes (examples) in editor window
 
 `
 vignette(package = "package_name") 
