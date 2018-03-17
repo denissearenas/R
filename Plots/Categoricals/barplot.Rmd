@@ -1,0 +1,26 @@
+---
+title: "barplot"
+author: "Denisse"
+date: "17 March 2018"
+output: pdf_document
+---
+
+
+# Barplot
+
+### Creates a bar plot 
+
+`barplot(vactor_or_matrix)`
+
+```{r}
+x <- c('Yes', 'Yes', 'No', 'None', 'Yes', 'No', 'No', 'Yes', 'Yes', 'Yes')
+table_x <- table(x)
+barplot(table_x)
+```
+
+#### sorting it
+
+```{r}
+barplot(table_x[order(table_x)])
+```
+
