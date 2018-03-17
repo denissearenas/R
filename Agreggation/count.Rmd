@@ -1,0 +1,30 @@
+---
+title: "Count"
+author: "Denisse"
+date: "17 March 2018"
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
+---
+
+# Count
+
+### Frequencies for each level of the variable
+
+Table of the counts at each combination of factor levels (categorical variables).
+
+`table(array)`
+
+```{r setup}
+x <- c('Yes', 'Yes', 'No', 'None', 'Yes', 'No', 'No', 'Yes', 'Yes', 'Yes')
+table(x)
+```
+
+#### sorted
+
+```{r}
+x <- c('Yes', 'Yes', 'No', 'None', 'Yes', 'No', 'No', 'Yes', 'Yes', 'Yes')
+table_x <- table(x)
+table_x[order(table_x)]
+```
