@@ -2,7 +2,9 @@
 title: "barplot"
 author: "Denisse"
 date: "17 March 2018"
-output: pdf_document
+output:
+  html_document:
+    df_print: paged
 ---
 
 
