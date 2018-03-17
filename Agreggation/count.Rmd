@@ -21,7 +21,7 @@ x <- c('Yes', 'Yes', 'No', 'None', 'Yes', 'No', 'No', 'Yes', 'Yes', 'Yes')
 table(x)
 ```
 
-#### sorted
+#### Sorting it
 
 ```{r}
 x <- c('Yes', 'Yes', 'No', 'None', 'Yes', 'No', 'No', 'Yes', 'Yes', 'Yes')
